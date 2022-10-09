@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <h1 id="title">Survey</h1>
+  <p id="description">Help us to make our website a better experience !</p>
+  <div id="survey-container">
+    <form action="" method="post" id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" name="name" id="name" required placeholder="Your name" />
+      <label for="email" id="email-label">Email</label>
+      <input type="email" name="email" id="email" required placeholder="Enter your email" />
+      <label for="number" id="number-label">Age</label>
+      <input type="number" name="number" id="number" min="10" max="99" placeholder="Age" />
+      <label for="dropdown" id="describe-label">Which describes you the best ?</label>
+      <select name="dropdown" id="dropdown">
+        <option value="studient">Studient</option>
+        <option value="employee">Employee</option>
+      </select>
+      <label for="recommend" id="recommend-label">Would you recommend it ?</label>
+      <label for="recommend-yes">
+        <input type="radio" name="recommend" id="recommend-yes" value="yes" />
+        Yes
+      </label>
+      <label for="recommend-no">
+        <input type="radio" name="recommend" id="recommend-no" value="no" /> No
+      </label>
+      <label for="learning" id="learning-label">What would you like to learn ?</label>
+      <label for="web-dev"><input type="checkbox" name="web-dev" id="web-dev" value="web-dev" />Web Development</label>
+      <label for="game-dev"><input type="checkbox" name="game-dev" id="game-dev" value="game-dev" />Game
+        Development</label>
+      <label for="comments" id="comments-label">Any comments for us ?</label>
+      <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </div>
+  
+</body>
+
+</html>

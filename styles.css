@@ -1,0 +1,76 @@
+body {
+    background-color: #425F57;
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+#description {
+    text-align: center;
+    color: #CFFF8D;
+}
+
+#survey-container {
+    background-color: #749F82;
+    margin: 20px auto;
+    border-radius: 4px;
+    max-width: 600px;
+    padding: 35px 25px;
+}
+
+
+label {
+    display: block;
+}
+
+input,
+select,
+textarea {
+    margin: 5px 0 15px 0;
+    background-color: #CFFF8D;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+textarea {
+    width: 100%;
+    font-size: 14px;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#describe-label,
+#recommend-label,
+#learning-label,
+#comments-label {
+    font-weight: 900;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 5px 0;
+}
+
+#recommend-no,
+#game-dev {
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+#submit {
+    display: block;
+    margin: 40px auto 40px auto;
+    width: 100%;
+    border: none;
+    height: 34px;
+    border-radius: 2px;
+    background-color: palegreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+}
